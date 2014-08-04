@@ -1,0 +1,26 @@
+{
+  "name": "zoo-utils",
+  "version": "0.0.1",
+  "description": "Javascript utility functions for all zoo members",
+  "main": "libs/utils.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/jszoo/zoo-utils",
+  "bugs": {
+    "url": "https://github.com/jszoo/zoo-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jszoo/zoo-utils.git"
+  },
+  "keywords": [
+    "zoo",
+    "utils"
+  ],
+  "author": "ruleechen <rulee@live.cn>",
+  "license": "MIT"
+}
