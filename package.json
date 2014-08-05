@@ -3,11 +3,8 @@
   "version": "0.0.1",
   "description": "Javascript utility functions for all zoo members",
   "main": "libs/utils.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "test"
+    "test": "make test"
   },
   "homepage": "https://github.com/jszoo/zoo-utils",
   "bugs": {
@@ -22,5 +19,8 @@
     "utils"
   ],
   "author": "ruleechen <rulee@live.cn>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.21.3"
+  }
 }
