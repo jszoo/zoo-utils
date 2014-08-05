@@ -14,6 +14,7 @@ Tests
 -------------
 
 ```shell
+$ npm install
 $ npm test
 ```
 

@@ -1,10 +1,10 @@
 {
   "name": "zoo-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Javascript utility functions for all zoo members",
-  "main": "libs/utils.js",
+  "main": "lib/utils.js",
   "scripts": {
-    "test": "make test"
+    "test": "mocha test"
   },
   "homepage": "https://github.com/jszoo/zoo-utils",
   "bugs": {
