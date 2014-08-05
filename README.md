@@ -10,6 +10,13 @@ Installation
 $ npm install zoo-utils
 ```
 
+Tests
+-------------
+
+```shell
+$ npm test
+```
+
 License
 --------
 
