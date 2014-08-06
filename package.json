@@ -1,7 +1,7 @@
 {
   "name": "zoo-utils",
-  "version": "0.0.3",
-  "description": "Javascript utility functions for all zoo members",
+  "version": "0.0.2",
+  "description": "Utility functions for all zoo members",
   "main": "lib/utils.js",
   "scripts": {
     "test": "mocha test"

@@ -1,7 +1,7 @@
 zoo-utils
 =========
 
-Javascript utility functions for all zoo members
+Utility functions for all zoo members
 
 Installation
 -------------
