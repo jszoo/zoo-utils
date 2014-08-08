@@ -1,6 +1,6 @@
 {
   "name": "zoo-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Utility functions for all zoo members",
   "main": "lib/utils.js",
   "scripts": {
