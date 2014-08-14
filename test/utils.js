@@ -415,5 +415,21 @@ describe('utils', function() {
         });
     });
 
-    
+    describe('error', function() {
+        var error = new utils.Error('Argument "{0}" is invalid', 'Name');
+        it('.message', function() {
+            assert.equal(error.message, 'Argument "Name" is invalid');
+        });
+        it('instanceof', function() {
+            try {
+                throw error;
+            } catch (ex) {
+                assert.equal(ex instanceof Error, true);
+                assert.equal(ex instanceof utils.Error, true);
+            }
+        });
+        it('stack', function(){
+            assert.equal(error.stack != null, true);
+        });
+    });
 });
