@@ -1,6 +1,6 @@
 {
   "name": "zoo-utils",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Utility functions for all zoo members",
   "main": "lib/utils.js",
   "scripts": {
@@ -22,6 +22,6 @@
   "author": "ruleechen <rulee@live.cn>",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "~1.21.3"
+    "mocha": "~1.21.4"
   }
 }

@@ -382,8 +382,8 @@ describe('utils', function() {
         var dict = new utils.dictionary();
         
         it('.set', function() {
-            assert.equal(dict.set('key', 'value'), undefined);
-            assert.equal(dict.set('key2', 'value2'), undefined);
+            assert.equal(dict.set('key', 'value'), dict);
+            assert.equal(dict.set('key2', 'value2'), dict);
         });
 
         it('.get', function() {
@@ -407,7 +407,7 @@ describe('utils', function() {
         });
 
         it('.clear', function() {
-            assert.equal(dict.clear(), undefined);
+            assert.equal(dict.clear(), dict);
         });
 
         it('.count after clear', function() {
