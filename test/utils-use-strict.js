@@ -1,5 +1,5 @@
 /*
-* utils
+* utils-use-strict
 * author: ruleechen
 * contact: rulee@live.cn
 * create date: 2014.8.4
@@ -10,7 +10,7 @@
 var utils = require('..');
 var assert = require('assert');
 
-describe('utils', function() {
+describe('utils-use-strict', function() {
 
     describe('.arg2arr', function() {
         var fn = function(arg1, arg2) {
@@ -158,16 +158,6 @@ describe('utils', function() {
             var ret = utils.nudeExtend({}, { a: 1 }, { b: 2 });
             assert.equal(ret.a, 1);
             assert.equal(ret.b, undefined);
-        });
-    });
-
-    describe('.inherit', function() {
-        it('sub type should instanceof true to its parent type', function() {
-            var base = function() {};
-            var sub = function() {};
-            utils.inherit(sub, base, {});
-            assert.equal(new sub() instanceof sub, true);
-            assert.equal(new sub() instanceof base, true);
         });
     });
 
@@ -412,24 +402,6 @@ describe('utils', function() {
 
         it('.count after clear', function() {
             assert.equal(dict.count(), 0);
-        });
-    });
-
-    describe('error', function() {
-        var error = new utils.Error('Argument "{0}" is invalid', 'Name');
-        it('.message', function() {
-            assert.equal(error.message, 'Argument "Name" is invalid');
-        });
-        it('instanceof', function() {
-            try {
-                throw error;
-            } catch (ex) {
-                assert.equal(ex instanceof Error, true);
-                assert.equal(ex instanceof utils.Error, true);
-            }
-        });
-        it('stack', function(){
-            assert.equal(error.stack != null, true);
         });
     });
 });
