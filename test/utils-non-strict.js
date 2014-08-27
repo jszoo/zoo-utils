@@ -17,7 +17,7 @@ describe('utils-non-strict', function() {
         base.prototype.constructor = base;
         base.prototype.func1 = function(num) { return num + 1; };
         base.prototype.func2 = function(num) { return num + 1; };
-        base.prototype.func3 = function(num) { return num + 1;};
+        base.prototype.func3 = function(num) { return num + 1; };
         //
         var sub1 = function() { this.inherited(); };
         utils.inherit(sub1, base, {
